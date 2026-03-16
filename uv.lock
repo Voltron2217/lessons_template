@@ -1,0 +1,147 @@
+version = 1
+revision = 3
+requires-python = ">=3.12"
+
+[[package]]
+name = "colorama"
+version = "0.4.6"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/d8/53/6f443c9a4a8358a93a6792e2acffb9d9d5cb0a5cfd8802644b7b1c9a02e4/colorama-0.4.6.tar.gz", hash = "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44", size = 27697, upload-time = "2022-10-25T02:36:22.414Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl", hash = "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6", size = 25335, upload-time = "2022-10-25T02:36:20.889Z" },
+]
+
+[[package]]
+name = "fastrand"
+version = "3.0.8"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/8b/78/4802649c64e20f3cf3f7f2afe41f8acd2d4f1dc18d534d4ae36966f253da/fastrand-3.0.8.tar.gz", hash = "sha256:2a19ca7f29949235ee106dbde0584395c253b26c7925b428b72f2f349c016006", size = 9700, upload-time = "2026-01-27T22:18:09.5Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/ec/85/d88b220cf887162f409a2e5e9c1c5ef51cd119ddc618b4c55e4d8cbcb8c2/fastrand-3.0.8-cp312-cp312-macosx_10_13_universal2.whl", hash = "sha256:027d6ed6ce3fd719ae26499513eed6d20a004e3cbfa92592d0648f3c2026917a", size = 14035, upload-time = "2026-01-27T22:17:41.153Z" },
+    { url = "https://files.pythonhosted.org/packages/d9/20/bf560e71c0168f55b08f2f4f77a7fb991aa1e745dd1b08183679438dce71/fastrand-3.0.8-cp312-cp312-macosx_10_13_x86_64.whl", hash = "sha256:e5c49f62dcaab893dff4e793d31b7ebb54d45c7a258a4ca896fd8febaf1e2879", size = 10959, upload-time = "2026-01-27T22:17:41.876Z" },
+    { url = "https://files.pythonhosted.org/packages/88/09/4e1b517bfe506390a2e940ee70232b0eff8cd13d667b32f3c370cb8ce695/fastrand-3.0.8-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:bbd80d6535a2ac5c38ea4e1cb14f4c176a238c8f04a40b067af03526cc1f2755", size = 11239, upload-time = "2026-01-27T22:17:42.52Z" },
+    { url = "https://files.pythonhosted.org/packages/cd/00/c6aa31351c09faad9ac86101f50455abddaf730e04d766470cd5b6920e50/fastrand-3.0.8-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl", hash = "sha256:6b436a700893c325486bb4148f90fff8d8daa8d986cc47b403babb8c9c75c5f9", size = 21426, upload-time = "2026-01-27T22:17:43.162Z" },
+    { url = "https://files.pythonhosted.org/packages/a9/57/984dd6431e3d9a4f8a78692c525720dd82961421df06016e57b89c786f1e/fastrand-3.0.8-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:f1ee7c71e4ec47ced54156a11803554ec7eb62566f724dd4af2bcb2d2cad4ccf", size = 21149, upload-time = "2026-01-27T22:17:43.855Z" },
+    { url = "https://files.pythonhosted.org/packages/f2/0e/3592d79bd1053cbd4a9dcc57953ac35c3bc1e04ac35014110775e3ad3422/fastrand-3.0.8-cp312-cp312-win_amd64.whl", hash = "sha256:6eac155074b0b9646ba57a6eec2c832fbd24b293d8f710a27d1a785842777d50", size = 13560, upload-time = "2026-01-27T22:17:45.099Z" },
+    { url = "https://files.pythonhosted.org/packages/ea/23/d4aa61f332e4ad4976f5be9a0ec680f96cb3b60cc5128cfe358353a9ddc4/fastrand-3.0.8-cp313-cp313-macosx_10_13_universal2.whl", hash = "sha256:e85b4bef5b88c0cd9373f855467fa5a86f0c894a6fc2b3a2c59cb70da961b53d", size = 14036, upload-time = "2026-01-27T22:17:46.114Z" },
+    { url = "https://files.pythonhosted.org/packages/7a/58/a71c482e6396efc63a8fa06dc99dfb06c423c73bd44aa6e06637d7a894ee/fastrand-3.0.8-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:00e841eb6e0a337378db588c0fab816d90502efc7c4751a3daaf59d537bb8901", size = 10960, upload-time = "2026-01-27T22:17:46.785Z" },
+    { url = "https://files.pythonhosted.org/packages/4f/31/a824f59d785656f048bec05a0c8d0c40a5b08aff3c70d1f815e38c7ddbf0/fastrand-3.0.8-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:33091d8d82b71b2f91660b9dbde3a6855a27624fa73f77e8856f0dce5c5386ac", size = 11239, upload-time = "2026-01-27T22:17:47.43Z" },
+    { url = "https://files.pythonhosted.org/packages/6f/e9/28e0480546cd02fe8f1bc3e7067f26b42a77221eeceb13db9352470cc62b/fastrand-3.0.8-cp313-cp313-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl", hash = "sha256:66d1f2f476217289ace691ae46b0e492438d8f996c42ced929ceb1089d71121c", size = 21477, upload-time = "2026-01-27T22:17:48.074Z" },
+    { url = "https://files.pythonhosted.org/packages/ab/d7/ff6c17b4a4ca58c4b971cd4d559da93bdbd72a9b8cbdd3175f12e3b0bf81/fastrand-3.0.8-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:12a4e70fbeee2a411c3ef30bec0a655d7af4aac9bf3e175a13acb547f5c41583", size = 21192, upload-time = "2026-01-27T22:17:49.447Z" },
+    { url = "https://files.pythonhosted.org/packages/d5/8e/c63dded342ddd2fea6ca0c595d325e9688dbf8db8ec266eb53a9189bac11/fastrand-3.0.8-cp313-cp313-win_amd64.whl", hash = "sha256:41440c95b9d3df5e873cc61496bc834a8d3ef87d9266bae88332d592035a0862", size = 13565, upload-time = "2026-01-27T22:17:50.17Z" },
+    { url = "https://files.pythonhosted.org/packages/72/c2/40686d97cf7a59e1b4d6f4ce9975025320bfc6a396b922509434c7741d76/fastrand-3.0.8-cp314-cp314-macosx_10_15_universal2.whl", hash = "sha256:802c0047a09d700d522c2232836980fb0248334a4b3ec7ccea3c1e20911350f4", size = 14042, upload-time = "2026-01-27T22:17:50.798Z" },
+    { url = "https://files.pythonhosted.org/packages/36/bd/0ab48e28339c8f051154a6dc15ff366479517128c0d7f1088a8f535fcbe2/fastrand-3.0.8-cp314-cp314-macosx_10_15_x86_64.whl", hash = "sha256:4e90ecd74e808ea2071a1f79840219a2c5ac72dea616e5513156447167ed93bf", size = 11029, upload-time = "2026-01-27T22:17:51.486Z" },
+    { url = "https://files.pythonhosted.org/packages/62/c6/f9370b294e06386a909b1c891302dc0d54e1b6fdecd41f00e06a83313f30/fastrand-3.0.8-cp314-cp314-macosx_11_0_arm64.whl", hash = "sha256:cbbe781b37096899e29581f2c7ec35d59e29a87d4753e05f2eaabe9127d1935a", size = 11245, upload-time = "2026-01-27T22:17:52.135Z" },
+    { url = "https://files.pythonhosted.org/packages/b3/31/3bd64fb135bd8adef7a48b39031040059a644d587068cc7be1f2eea89796/fastrand-3.0.8-cp314-cp314-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl", hash = "sha256:4c1cc434c2263a896427f869748c9d5d8a7ee247deb8125f105a1c316ac8be5d", size = 21528, upload-time = "2026-01-27T22:17:52.765Z" },
+    { url = "https://files.pythonhosted.org/packages/ca/f8/9eab0406af9c9b16dd8068ececf77b812b57cbd4f414c53fa468610242fe/fastrand-3.0.8-cp314-cp314-musllinux_1_2_x86_64.whl", hash = "sha256:613c3d2f47a371f0607237e3c6ec4dec9a74b74dca1662a7b9b4155bdaeca79b", size = 21224, upload-time = "2026-01-27T22:17:53.909Z" },
+    { url = "https://files.pythonhosted.org/packages/72/6c/c2ce2ed588f7f98b51866904fecdf7ea3d73d320c27a7d4f244fe48488cd/fastrand-3.0.8-cp314-cp314-win_amd64.whl", hash = "sha256:9ed302af064a9c05859e958af12330bf41d51ce7b155d283f3012b0e49761115", size = 13740, upload-time = "2026-01-27T22:17:54.684Z" },
+    { url = "https://files.pythonhosted.org/packages/5e/31/441d8c87f65a3ac5bb90f3049a8ac50cd069bad6e0624524309a4a117415/fastrand-3.0.8-cp314-cp314t-macosx_10_15_universal2.whl", hash = "sha256:9c9c0e6aba30a864a59cb6946cb41d4ee723ceb881288d8d015cfce4341aed87", size = 14048, upload-time = "2026-01-27T22:17:55.402Z" },
+    { url = "https://files.pythonhosted.org/packages/9c/d7/e1e2abfeaec74bfc3ab5a8a2efdb516ccc7aee1ced9897df1dbc19c56ede/fastrand-3.0.8-cp314-cp314t-macosx_10_15_x86_64.whl", hash = "sha256:ba6f7a83df17ee00bc905003ef8b11ac08fd41cb119f1f42b4d4dcb48a223ec4", size = 11030, upload-time = "2026-01-27T22:17:56.123Z" },
+    { url = "https://files.pythonhosted.org/packages/dc/d9/4df57fc552a740c057d456fdec58bbc4e849b4723d3c50e9c7386bec32f0/fastrand-3.0.8-cp314-cp314t-macosx_11_0_arm64.whl", hash = "sha256:a8e2ccad2b56dd80638d54fdb4ac3059129bd056f677cb2d1d05e9f5929d0906", size = 11244, upload-time = "2026-01-27T22:17:57.29Z" },
+    { url = "https://files.pythonhosted.org/packages/73/de/273de3e5a0b605c069423241d9b19137f6e24876b4d7f42b134c32ca9cd8/fastrand-3.0.8-cp314-cp314t-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl", hash = "sha256:431382ebd273a08bf24444002f14355cee9304a6668f634c86e7069774140020", size = 21576, upload-time = "2026-01-27T22:17:57.923Z" },
+    { url = "https://files.pythonhosted.org/packages/82/0d/1b12ad028da286b63b67da2096dc379b89e5c88602e76e7ec0020c9e83ca/fastrand-3.0.8-cp314-cp314t-musllinux_1_2_x86_64.whl", hash = "sha256:07b59a2b6dc68da4a596a6a9fc8b996c795b26148ebe43df21e185c18b36f9a9", size = 21293, upload-time = "2026-01-27T22:17:59.105Z" },
+    { url = "https://files.pythonhosted.org/packages/f1/65/daf8b458c7e7cf6792e2dfd915d066daf242bec56880d9027ac3e08655aa/fastrand-3.0.8-cp314-cp314t-win_amd64.whl", hash = "sha256:bc32b7d08892d2b36987aa83e81394c71705c72cfee7ebf511bd54b61eb68575", size = 13751, upload-time = "2026-01-27T22:17:59.786Z" },
+]
+
+[[package]]
+name = "iniconfig"
+version = "2.3.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/72/34/14ca021ce8e5dfedc35312d08ba8bf51fdd999c576889fc2c24cb97f4f10/iniconfig-2.3.0.tar.gz", hash = "sha256:c76315c77db068650d49c5b56314774a7804df16fee4402c1f19d6d15d8c4730", size = 20503, upload-time = "2025-10-18T21:55:43.219Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/cb/b1/3846dd7f199d53cb17f49cba7e651e9ce294d8497c8c150530ed11865bb8/iniconfig-2.3.0-py3-none-any.whl", hash = "sha256:f631c04d2c48c52b84d0d0549c99ff3859c98df65b3101406327ecc7d53fbf12", size = 7484, upload-time = "2025-10-18T21:55:41.639Z" },
+]
+
+[[package]]
+name = "lessons"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "fastrand" },
+    { name = "pygame-ce" },
+]
+
+[package.dev-dependencies]
+dev = [
+    { name = "pytest" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "fastrand", specifier = ">=3.0.8" },
+    { name = "pygame-ce" },
+]
+
+[package.metadata.requires-dev]
+dev = [{ name = "pytest", specifier = ">=9.0.2" }]
+
+[[package]]
+name = "packaging"
+version = "26.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/65/ee/299d360cdc32edc7d2cf530f3accf79c4fca01e96ffc950d8a52213bd8e4/packaging-26.0.tar.gz", hash = "sha256:00243ae351a257117b6a241061796684b084ed1c516a08c48a3f7e147a9d80b4", size = 143416, upload-time = "2026-01-21T20:50:39.064Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b7/b9/c538f279a4e237a006a2c98387d081e9eb060d203d8ed34467cc0f0b9b53/packaging-26.0-py3-none-any.whl", hash = "sha256:b36f1fef9334a5588b4166f8bcd26a14e521f2b55e6b9de3aaa80d3ff7a37529", size = 74366, upload-time = "2026-01-21T20:50:37.788Z" },
+]
+
+[[package]]
+name = "pluggy"
+version = "1.6.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/f9/e2/3e91f31a7d2b083fe6ef3fa267035b518369d9511ffab804f839851d2779/pluggy-1.6.0.tar.gz", hash = "sha256:7dcc130b76258d33b90f61b658791dede3486c3e6bfb003ee5c9bfb396dd22f3", size = 69412, upload-time = "2025-05-15T12:30:07.975Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl", hash = "sha256:e920276dd6813095e9377c0bc5566d94c932c33b27a3e3945d8389c374dd4746", size = 20538, upload-time = "2025-05-15T12:30:06.134Z" },
+]
+
+[[package]]
+name = "pygame-ce"
+version = "2.5.7"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/e9/0d/bb6a6fdf1b227c0bb9a44437a70962a3854bcc541533c261e5021a5ee691/pygame_ce-2.5.7.tar.gz", hash = "sha256:86beb797cd73c141299a29b56f7df2b0543fbdc81d428022458329ff694aaa51", size = 5935870, upload-time = "2026-03-02T09:26:59.005Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/57/a7/cd305034f505bfa1a1acdafd3d86af54da14b29151a0d99f348306272773/pygame_ce-2.5.7-cp312-cp312-macosx_10_13_universal2.whl", hash = "sha256:dca2f8ba56bf3b4b8c73c4863d0603773403f4f66bc2fe25784ea74aee3fffc3", size = 17210332, upload-time = "2026-03-02T09:25:52.18Z" },
+    { url = "https://files.pythonhosted.org/packages/e5/94/7f6304a31ccc7d11d4443e590cbfa6fce2bd34077575a7790d4f0a14f440/pygame_ce-2.5.7-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:4dc989462faf2c5947881f708fa406d7ac13c1bc987c1588d630ca62ad369989", size = 12709001, upload-time = "2026-03-02T09:25:54.806Z" },
+    { url = "https://files.pythonhosted.org/packages/09/8b/a7886b7bfe874fa381201ee538928af3c1cab2fe3e36927ed08f3f1d0b61/pygame_ce-2.5.7-cp312-cp312-manylinux2014_i686.manylinux_2_17_i686.whl", hash = "sha256:538689d77c44f5dbefc0abeab5b9806d6c90ebc6d64078736c8a4c731f08b37e", size = 13236706, upload-time = "2026-03-02T09:25:57.524Z" },
+    { url = "https://files.pythonhosted.org/packages/db/17/70ada4cef84eca48a995cc9e0f2f087e6190b3e4111e9c8ec3c7a8f689bd/pygame_ce-2.5.7-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:0d8fa8822c0f4b5ae6b44ada7be9f2193fd512da1381c37fa3c5bda8971d64cb", size = 12812909, upload-time = "2026-03-02T09:25:59.971Z" },
+    { url = "https://files.pythonhosted.org/packages/40/db/1cfcfb7813ce6d2202919ad87c7e1b278a4f820902ba826df43dc8906e34/pygame_ce-2.5.7-cp312-cp312-win32.whl", hash = "sha256:604207c8813a594919bb7e6d3ed3834f79aa099d2d648e8a8fc3d786ad3fa1c8", size = 9837595, upload-time = "2026-03-02T09:26:02.573Z" },
+    { url = "https://files.pythonhosted.org/packages/1f/d4/43b006affa13e2f4572aa28a0d1f64c91c330d289c30a022b5416245714c/pygame_ce-2.5.7-cp312-cp312-win_amd64.whl", hash = "sha256:b6b7eec2779fac11ed265a18ab926b3829654120a5c9a07c36eeedeb012b8c3c", size = 10414958, upload-time = "2026-03-02T09:26:05.25Z" },
+    { url = "https://files.pythonhosted.org/packages/18/1b/971a432d8bab8c52031ddbd0e681750a57348213ec0f8a0e0d6713e8df46/pygame_ce-2.5.7-cp312-cp312-win_arm64.whl", hash = "sha256:eb99a8a7185057064163610b3ca3e1d3307f0eb3dfff6e19556fa5132c6bca87", size = 10859829, upload-time = "2026-03-02T09:26:08.06Z" },
+    { url = "https://files.pythonhosted.org/packages/21/96/d28381210ec2ed5d7a04f77cd8f6949a7734f75a7a7d9a95fe8ed60fe3ba/pygame_ce-2.5.7-cp313-cp313-macosx_10_13_universal2.whl", hash = "sha256:8766985d802017e150fcfb9adc659967d8548a961d491b8974f0748412cc0427", size = 17203240, upload-time = "2026-03-02T09:26:10.975Z" },
+    { url = "https://files.pythonhosted.org/packages/b8/f0/a3e4d0ad2519d106d178652ae7ec692e8acadf3d2260493840c27f8eabb8/pygame_ce-2.5.7-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:58eabfc184dd28c682e5e6ccfce01224bb12653c6648babcd0bb9d9bd662d938", size = 12705532, upload-time = "2026-03-02T09:26:13.795Z" },
+    { url = "https://files.pythonhosted.org/packages/13/0d/6d6c29aa5ecf63a66983bdf04066dc019290e7412f64b0ae5133c5e53d47/pygame_ce-2.5.7-cp313-cp313-manylinux2014_i686.manylinux_2_17_i686.whl", hash = "sha256:92d5732cd512c8ec0b47e9a3e6c683fb811bdf2090362580778ce698222a64ab", size = 13233559, upload-time = "2026-03-02T09:26:16.202Z" },
+    { url = "https://files.pythonhosted.org/packages/fe/96/e400d3a2c6456e3a334d9fae1f8704d964027b60064935278028dd79293f/pygame_ce-2.5.7-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:48e9a4ece43b08adc8ffb0bbbe0fe183eef4bb501a7d31552ae7398592ec0a82", size = 12811409, upload-time = "2026-03-02T09:26:19.148Z" },
+    { url = "https://files.pythonhosted.org/packages/8f/ed/8e3c6f5d4ac763f6766c2043f842b2c52028b30a4ce2ce2f5dced5961354/pygame_ce-2.5.7-cp313-cp313-win32.whl", hash = "sha256:f6439100bdee81da96f5acffb280f20511c93dd67178d8a8cf29d6cfd1aa46dd", size = 9835553, upload-time = "2026-03-02T09:26:22.123Z" },
+    { url = "https://files.pythonhosted.org/packages/06/a0/7acd164b3a206327bf53df5e5399227a5baf858ae2944cba562a0ae77e0a/pygame_ce-2.5.7-cp313-cp313-win_amd64.whl", hash = "sha256:25047c97760fc640a6a8bbfdf3398c5825adfd55986a7523a65c95a1fb61d759", size = 10413012, upload-time = "2026-03-02T09:26:24.747Z" },
+    { url = "https://files.pythonhosted.org/packages/47/d5/e4419a340ae24bd0dde5a6861406c24114f59a543aad44f1d2f2ae4752d5/pygame_ce-2.5.7-cp313-cp313-win_arm64.whl", hash = "sha256:f5a7197096ef82d588539f13b0f7ade767f800c7b0b015a94e386f488e1039f6", size = 10856939, upload-time = "2026-03-02T09:26:27.107Z" },
+    { url = "https://files.pythonhosted.org/packages/26/08/9fe0003d69077ff8faff242a85260b8a192d3b7111c02332b8b2f515d40c/pygame_ce-2.5.7-cp314-cp314-macosx_10_15_universal2.whl", hash = "sha256:addfbf7d119647eec157d611f463e5d572836fa74d0d222c59210294ed618b9d", size = 17211017, upload-time = "2026-03-02T09:26:30.243Z" },
+    { url = "https://files.pythonhosted.org/packages/40/c7/217c5430c8c612879162beb2d18cb10ad8b1b4db6ce03245289a3de6bc1b/pygame_ce-2.5.7-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:1c92feb289e34ac323a7b62b91d230a4e32b44059c4d7fb95631e504b1d9b365", size = 12710845, upload-time = "2026-03-02T09:26:33.165Z" },
+    { url = "https://files.pythonhosted.org/packages/00/a4/6fb0054bfb2522c4ad3ff82ecbc9c1a3c6694c50d24f2451717121636a1d/pygame_ce-2.5.7-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:5c1ed4100311015cc67d24fe4e4d7c2f4cb25c34e043545061271c1d018c02d4", size = 12812020, upload-time = "2026-03-02T09:26:35.953Z" },
+    { url = "https://files.pythonhosted.org/packages/a2/9b/0e0996573a9dd4bb34874c10643224a72372818242e07486c9eb4a22eebb/pygame_ce-2.5.7-cp314-cp314-win32.whl", hash = "sha256:1b7e641af3aeac92bb7e4df1402d6802271f4bd09c747d2665f154ef9b07a4e6", size = 9968590, upload-time = "2026-03-02T09:26:38.517Z" },
+    { url = "https://files.pythonhosted.org/packages/96/96/c94d0e508954093e37a77b03101a3cf51a242e02cc0ec726edcb117f8885/pygame_ce-2.5.7-cp314-cp314-win_amd64.whl", hash = "sha256:595f4257c15fed11cd816ae0bfabad3d99f8f04a000d7d164a22c0f9afd6cb65", size = 10581240, upload-time = "2026-03-02T09:26:41.139Z" },
+    { url = "https://files.pythonhosted.org/packages/81/bb/93c5dadb66ac9733ca52952e063cce117a9312d6f97facd5dc4932f3d777/pygame_ce-2.5.7-cp314-cp314-win_arm64.whl", hash = "sha256:3e6ce74fd5a5f146f1bcf0224ae3e880c733917a9edbb53f790329d235520433", size = 11057480, upload-time = "2026-03-02T09:26:43.871Z" },
+]
+
+[[package]]
+name = "pygments"
+version = "2.19.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/b0/77/a5b8c569bf593b0140bde72ea885a803b82086995367bf2037de0159d924/pygments-2.19.2.tar.gz", hash = "sha256:636cb2477cec7f8952536970bc533bc43743542f70392ae026374600add5b887", size = 4968631, upload-time = "2025-06-21T13:39:12.283Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/c7/21/705964c7812476f378728bdf590ca4b771ec72385c533964653c68e86bdc/pygments-2.19.2-py3-none-any.whl", hash = "sha256:86540386c03d588bb81d44bc3928634ff26449851e99741617ecb9037ee5ec0b", size = 1225217, upload-time = "2025-06-21T13:39:07.939Z" },
+]
+
+[[package]]
+name = "pytest"
+version = "9.0.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "colorama", marker = "sys_platform == 'win32'" },
+    { name = "iniconfig" },
+    { name = "packaging" },
+    { name = "pluggy" },
+    { name = "pygments" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/d1/db/7ef3487e0fb0049ddb5ce41d3a49c235bf9ad299b6a25d5780a89f19230f/pytest-9.0.2.tar.gz", hash = "sha256:75186651a92bd89611d1d9fc20f0b4345fd827c41ccd5c299a868a05d70edf11", size = 1568901, upload-time = "2025-12-06T21:30:51.014Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/3b/ab/b3226f0bd7cdcf710fbede2b3548584366da3b19b5021e74f5bde2a8fa3f/pytest-9.0.2-py3-none-any.whl", hash = "sha256:711ffd45bf766d5264d487b917733b453d917afd2b0ad65223959f59089f875b", size = 374801, upload-time = "2025-12-06T21:30:49.154Z" },
+]

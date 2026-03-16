@@ -1,0 +1,8 @@
+__pycache__
+*.pyc
+*.pyo
+*.egg-info
+.*
+!/.gitignore
+!.dockerignore
+!/.ruff.toml

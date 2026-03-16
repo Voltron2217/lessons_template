@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "lessons"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "fastrand>=3.0.8",
+    "pygame-ce",
+]
+
+
+[project.scripts]
+lessons = "lessons.main:main"
+
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+]
