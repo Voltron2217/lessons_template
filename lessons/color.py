@@ -28,13 +28,29 @@ def hsv_to_srgb(h: float, s: float, v: float) -> tuple[int, int, int]:
     https://en.wikipedia.org/wiki/HSL_and_HSV#HSV_to_RGB
 
     Args:
-        h: Hue in degrees (0-360)
-        s: Saturation (0.0-1.0)
-        v: Value (0.0-1.0)
+        h: Hue in degrees [0-360)
+        s: Saturation [0.0-1.0]
+        v: Value [0.0-1.0]
 
     Returns:
         Tuple of (r, g, b) where each component is 0-255
     """
-
-    # TODO: Write implementation here
-    return 0, 0, 0
+    h = h % 360
+    c = v * s
+    h_prime = h / 60
+    x = c * (1 - abs(h_prime % 2 - 1))
+    if 1 > h_prime >= 0:
+        r1, g1, b1 = c, x, 0
+    elif 1 <= h_prime < 2:
+        r1, g1, b1 = x, c, 0
+    elif 2 <= h_prime < 3:
+        r1, g1, b1 = 0, c, x
+    elif 3 <= h_prime < 4:
+        r1, g1, b1 = 0, x, c
+    elif 4 <= h_prime < 5:
+        r1, g1, b1 = x, 0, c
+    else:
+        r1, g1, b1 = c, 0, x
+    m = v - c
+    r, g, b = r1 + m, g1 + m, b1 + m
+    return linear_rgb_to_srgb(r, g, b)
