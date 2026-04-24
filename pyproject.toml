@@ -10,6 +10,7 @@ description = "Add your description here"
 requires-python = ">=3.12"
 dependencies = [
     "fastrand>=3.0.8",
+    "pygame>=2.6.1",
     "pygame-ce",
 ]
 
